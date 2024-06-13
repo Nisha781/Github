@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>-
     <title>Laravel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +34,7 @@
                         @endif
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
-                            <label for="email">Email</label>
+                            <label for="email">Emaill</label>
                             <input type="email" name="email" id="email" class="form-control">
                             <label for="password">Password</label>
                             <input type="password" name="password" id="password" class="form-control">
